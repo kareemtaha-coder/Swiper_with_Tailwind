@@ -78,18 +78,7 @@ export class TestimonialsComponent implements OnInit ,AfterViewInit {
   }
   ngAfterViewInit(): void {
     const swiperElement = this.swiperEl.nativeElement;
-    swiperElement.initialize();  // now recognized by TS
-    const swiperParams = {
-      slidesPerView: 1.1,
-      spaceBetween: 20,
-      loop: true,
-      breakpoints: {
-        '440': { slidesPerView: 1.1 },
-        '640': { slidesPerView: 2.1 },
-        '1024': { slidesPerView: 2.1 },
-      },
-  }
-
+    swiperElement.initialize();  // now recognized by 
 
 }
 }
